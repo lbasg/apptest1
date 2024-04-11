@@ -1,2 +1,2 @@
 # apptest1
-test application.
+test application
