@@ -6,4 +6,4 @@ jobs:
   CICD:
     uses: lbasg/cicd/.github/workflows/validation.yml@main
     with: 
-      application: $APP_NAME
+      application: ${{ vars.APP_NAME }}
