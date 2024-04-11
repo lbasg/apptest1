@@ -1,0 +1,9 @@
+on: 
+  push:
+    branches:
+      - 'main'
+jobs:
+  CICD:
+    uses: lbasg/cicd/.github/workflows/validation.yml@main
+    with: 
+      application: $APP_NAME
