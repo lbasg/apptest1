@@ -1,3 +1,4 @@
+name: CICD 
 on: 
   push:
     branches:
@@ -8,5 +9,5 @@ jobs:
   CICD:
     uses: lbasg/cicd/.github/workflows/main.yml@main
     with: 
-      application: ${{ vars.APP_NAME }}
       technology: ${{ vars.APP_TECH }}
+      application: ${{ vars.APP_NAME }}
