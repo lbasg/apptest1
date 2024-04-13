@@ -7,3 +7,4 @@ jobs:
     uses: lbasg/cicd/.github/workflows/main.yml@main
     with: 
       application: ${{ vars.APP_NAME }}
+      technology: ${{ vars.APP_TECH }}
