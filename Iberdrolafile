@@ -28,7 +28,7 @@ artifact:
 deploy:
     enabled: false 
 functional_test:
-    enabled: false
+  enabled: false
 site:
     enabled: true
     path: target/site
