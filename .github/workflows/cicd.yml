@@ -7,7 +7,7 @@ on:
 
 jobs:
   CICD:
-    uses: lbasg/cicd/.github/workflows/main.yml@main
+    uses: lbasg/cicd/.github/workflows/main.yml@validate-Iberdrolafile
     with: 
-      technology: ${{ vars.APP_TECH }}
-      application: ${{ vars.APP_NAME }}
+      repository: ${{ github.repository }}
+
